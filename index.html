@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartBudget</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" 
+  integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/a2d9d6b0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <header class="navbar">
+    <div class="logo">
+      <i class="ri-wallet-3-line"></i>
+      <span>SmartBudget</span>
+    </div>
+    <div class="nav-actions">
+      <button class="btn login" onclick="window.location.href='login.html'">Login</button>
+      <button class="btn register" onclick="window.location.href='register.html'">Register</button>
+      <button id="theme-toggle" class="theme-btn">
+        <i class="ri-sun-line"></i>
+
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+ <section class="hero">
+  <div class="hero-content">
+    <i class="ri-wallet-3-line hero-icon"></i>
+    <h1>Smart Budgeting <br> Simplified</h1>
+    <p>Track your income and expenses effortlessly. Clean, secure, and designed for financial freedom.</p>
+    <div class="hero-buttons">
+      <button class="btn primary" onclick="window.location.href='register.html'">Get Started</button>
+      <button class="btn outline" onclick="window.location.href='login.html'">Log In</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Why SmartBudget?</h2>
+    <p class="feature-sub">Built with modern web technologies for a smooth, secure, and efficient experience.</p>
+    <div class="feature-cards">
+      <div class="card">
+        <i class="ri-flashlight-line"></i>
+        <h3>Fast & Efficient</h3>
+        <p>Track your budget in seconds with an interface built for speed and simplicity.</p>
+      </div>
+      <div class="card">
+        <i class="ri-git-repository-private-line"></i>
+        <h3>Secure & Private</h3>
+        <p>Your data stays safe with enterprise-grade security and encrypted storage.</p>
+      </div>
+      <div class="card">
+        <i class="ri-bar-chart-box-ai-line"></i>
+        <h3>Insightful Reports</h3>
+        <p>Gain insights with clear charts and breakdowns of your financial activity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+<section class="cta">
+  <div class="cta-content">
+    <h2>Ready to Take Control?</h2>
+    <p>Join thousands of users who manage their finances smarter with SmartBudget.</p>
+    <button class="btn primary" onclick="window.location.href='register.html'">Get Started For Free</button>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+ <footer class="footer">
+    <p>© 2025 SmartBudget — Built with PHP, HTML, CSS & JS</p>
+  </footer>
+
+
+  <script src="theme.js"></script>
+</body>
+</html>
